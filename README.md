@@ -1,2 +1,2 @@
 # cybersecurity-lab-jon-bueno
-Home Lab de ciberseguridad (Blue Team / Red Team) para práctica y documentación de entornos virtualizados
+Home Lab de Ciberseguridad (Blue Team / Red Team) orientado a práctica, documentación y desarrollo de entornos virtualizados.
