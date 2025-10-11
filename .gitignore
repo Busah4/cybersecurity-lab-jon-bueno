@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#Security Measures
+.DS_Store
+*.vdi
+*.vmdk
+*.qcow2
+*.ova
+id_rsa
+id_ed25519
+*.pem
+*.pcap
