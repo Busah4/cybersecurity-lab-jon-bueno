@@ -7,12 +7,11 @@ y Ubuntu (defensa), con documentación técnica del proceso.
 
 ## Estructura del repositorio
 
-- `src/`: scripts de automatización, análisis o defensa.
-- `docs/`: documentación técnica y reportes.
-- `demo/`: capturas de pantalla mostrando resultados
-- `pcaps/`: captura de tráfico (anonimizadas)
-- `vm-povisioning/`: configuración o scrips de despliegue
-- `configs/`: archivos de configuración (limpios, sin claves)
+- `docs`: documentación técnica y reportes
+- `.gitattributes`: configuraciones sobre como git debe manejar ciertos archivos.
+- `.gitignore`: indicamos a Git que archivos o carpetas no deben incluirse. 
+- `LICENSE`: definimos los términos legales mediante los cuales personas externas al proyecto pueden modificar o distribuir el código.
+- `README`: documento de presentación de proyecto.
 
 ## Como reproducir
 1. Clonar el repositorio.
