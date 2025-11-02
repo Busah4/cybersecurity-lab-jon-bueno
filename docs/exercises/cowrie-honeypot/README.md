@@ -1,6 +1,6 @@
-# Ejercicio sobre la creación configuración y testeo de una HoneyPot desde cero.
+# Ejercicio sobre la creación, configuración, y testeo de una HoneyPot desde cero.
 
-En este ejercicio vamos a instalar, configurar una HoneyPot cowrie con el objetivo de poder retrasar 
+En este ejercicio vamos a instala y configurar una HoneyPot cowrie con el objetivo de poder retrasar 
 a diferentes atacantes que quieran acceder a nuestras máquinas principales.
 
 ## Objetivo
@@ -9,16 +9,16 @@ Obtener la información de los posibles atacantes a la hora de intentar acceder 
 
 ## Metodología
 
-He creado la estructura, posteriormente he descargado los repositorios y los he instalado
+He creado la estructura, posteriormente he descargado los repositorios, y los he instalado
 en un entorno virtual con el objetivo de que la instalación se produzca dentro de dicho entorno
-virtual. Tras esto se ha configurado la HoneyPot con el objetivo de que escuche conexiones
+virtual. Tras esto, he configurado la HoneyPot con el objetivo de que escuche conexiones
 que se realicen en el puerto 22, reportando cualquier tipo de flujo de información que reciba.
-Tras esto hemos realizado una conexión a dicho puerto (e IP de la máquina) con una máquina Kali.
+Una vez realizado lo previo, he realizado una conexión a dicho puerto (e IP de la máquina) con una máquina Kali.
 
 ## Resultado de conexión con máquina Kali Linux
 
 La conexión con la máquina Kali ha sido registrada de manera existosa, y se ha podido ver en acción
-la HoneyPot, en este caso solicitando la contraseña a la máquina que se intentaba conectar, teniendo
+el HoneyPot, en este caso solicitando la contraseña a la máquina que se intentaba conectar, teniendo
 ningún tipo de exito ya que la HoneyPot le solicitaba una contraseña que no existia. Registrando
 cada intento de conexión.
 
