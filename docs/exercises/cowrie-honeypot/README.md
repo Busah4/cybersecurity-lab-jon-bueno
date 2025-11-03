@@ -1,6 +1,6 @@
 # Ejercicio sobre la creación, configuración, y testeo de una HoneyPot desde cero.
 
-En este ejercicio vamos a instala y configurar una HoneyPot cowrie con el objetivo de poder retrasar 
+En este ejercicio vamos a instalar y configurar una HoneyPot cowrie con el objetivo de poder retrasar 
 a diferentes atacantes que quieran acceder a nuestras máquinas principales.
 
 ## Objetivo
